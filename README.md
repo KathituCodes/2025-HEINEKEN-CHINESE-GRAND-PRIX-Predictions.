@@ -1,6 +1,6 @@
 # 2025 Heineken Chinese Grand Prix – Prediction Model
 
-## 📌 Project Overview
+## Project Overview
 
 This project aims to **predict the finishing order** of the 2025 Heineken Chinese Grand Prix using historical race data, qualifying results, and machine learning.
 
@@ -8,7 +8,7 @@ By leveraging **FastF1** for race data and **Gradient Boosting Regression** for 
 
 ---
 
-## 🎯 Objectives
+## Objectives
 
 The primary goals of this project were to:
 
@@ -21,7 +21,7 @@ The primary goals of this project were to:
 
 ---
 
-## 📊 Data Sources
+## Data Sources
 
 * **FastF1 API** – Historical race telemetry, lap times, and session results.
 * **2025 Qualifying Data** – Manually compiled grid positions and qualifying times.
@@ -29,7 +29,7 @@ The primary goals of this project were to:
 
 ---
 
-## 🛠️ Methodology
+## Methodology
 
 1. **Load Historical Race Data**
    Extracted lap-by-lap data from the 2024 Chinese GP, including tire compounds and grid positions.
@@ -52,13 +52,13 @@ The primary goals of this project were to:
 
 ---
 
-## 📈 Model Performance
+## Model Performance
 
 The model’s predictive accuracy was measured using **Mean Absolute Error (MAE)** to ensure reasonable lap time estimations.
 
 ---
 
-## 🚀 Future Improvements
+## Future Improvements
 
 * Incorporating **weather data** for race day conditions.
 * Adding **pit stop strategies** and tire degradation modeling.
@@ -66,7 +66,7 @@ The model’s predictive accuracy was measured using **Mean Absolute Error (MAE)
 
 ---
 
-## 📦 Requirements
+## Requirements
 
 ```bash
 pip install fastf1 pandas numpy scikit-learn
@@ -74,7 +74,7 @@ pip install fastf1 pandas numpy scikit-learn
 
 ---
 
-## 📜 Disclaimer
+## Disclaimer
 
 This model is a **fun, data-driven prediction tool** and not an official forecast. Race outcomes can vary due to unpredictable factors like crashes, mechanical issues, or strategy changes.
 
